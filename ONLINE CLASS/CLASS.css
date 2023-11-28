@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.navigation{
+    display: flex;
+    align-items:center;
+    min-height: 8vh;
+    background-color: aquamarine;
+     color: beige;
+     justify-content: space-around;
+}
+.a{
+    font-size: 40px;
+    color: blueviolet;
+}
+.logo{
+    height: 150px;
+    width: 200px;
+    justify-content: space-between;
+}
+.logo img{
+    height: 80%;
+    width: 60%;
+    justify-content: space-between;
+}
+.navigation-links{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+
+}
+main{
+   /* background-color: blueviolet;*/
+   background-color: rgb(231, 177, 107);
+   min-height: 75vh;
+   padding: 5% 10% 0% 10%;
+}
+.intro{
+    width: 80%;
+    font-size: 15px;
+    color: aqua;
+}
+.description{
+    width: 60%;
+    margin: 30px;
+    font-size: 40px;
+}
+button{
+    background-color:teal;
+    border: none;
+    border-radius: 30px;
+    padding:  25px 35px 25px 35px;
+    font-size: 20px;
+    cursor: pointer;
+    color: blue;
+}
+.course-container{
+    display: -moz-inline-grid;
+    grid-template-columns: auto auto auto auto;
+    flex-direction: column-reverse;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 700px;
+    width: 500px;
+    align-items: center;
+    background-color:blue;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    width: 200px;
+    background-color: rgb(179, 186, 245);
+    border-radius: 20px;
+    margin: 10px;
+    color: aqua;
+}
+input{
+    padding: 5px;
+    width: 100px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
+textarea{
+    padding: 15px;
+    width: 200px;
+    height: 90px;
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+}
